@@ -2,7 +2,8 @@ import datetime
 import vk_api
 import time
 
-token = "19d3f1537efe6357737098ced1fd2614a462f7dd48897cebe335bfe911487b7c355c0535d6a047642a8dc"
+
+token = input("your token: ")
 vk_session = vk_api.VkApi(token=token)
 vk = vk_session.get_api()
 def main():
