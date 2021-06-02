@@ -38,6 +38,8 @@
    
          python3 main.py
          
+   
+   
 <pre>
     <kbd>Ctrl</kbd>+<kbd>С</kbd>+<kbd>Esc</kbd> - Остановка скрипта.
 </pre> 
