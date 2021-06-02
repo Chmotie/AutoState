@@ -11,7 +11,9 @@
   
 
 2.Установим Git:
+
    Для Linux:
+
 
       sudo apt-get install git
 
