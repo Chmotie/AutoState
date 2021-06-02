@@ -15,22 +15,22 @@
   
    Для Linux:
 
-    sudo apt-get install git
+         sudo apt-get install git
       
    Для Termux:
 
-      pkg install git
+         pkg install git
       
-3.Запускаем скрипт:
+3. Запускаем скрипт:
 
    Для Linux:
    
-      sudo python3 main.py
+         sudo python3 main.py
       
       
    Для Termux:
    
-      python3 main.py
+         python3 main.py
       
    
    
