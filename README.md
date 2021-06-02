@@ -26,12 +26,12 @@
    
       ```
          sudo python3 main.py
-      ```
+      
       
    Для Termux:
    
       ```
          python3 main.py
-      ```
+      
    
    
