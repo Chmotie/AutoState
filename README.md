@@ -20,8 +20,12 @@
    Для Termux:
 
          pkg install git
-      
-3. Запускаем скрипт:
+ 
+3. Гит клоним скрипт:
+
+         git clone https://github.com/Chmotie/AutoState
+ 
+4. Запускаем скрипт:
 
    Для Linux:
    
