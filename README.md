@@ -19,5 +19,19 @@
       Для Termux:
 
       ```pkg install git```
+      
+3.Запускаем скрипт:
+
+   Для Linux:
+   
+      ```
+         sudo python3 main.py
+      ```
+      
+   Для Termux:
+   
+      ```
+         python3 main.py
+      ```
    
    
