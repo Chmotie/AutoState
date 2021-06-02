@@ -7,10 +7,8 @@
 
    Необходим Python3:
    
-   
       ```pip3 install vk_api```
  
-
 2.Установим Git:
 
   Для Linux:
