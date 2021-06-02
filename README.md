@@ -11,9 +11,11 @@
 2.Установим Git:
 
    Для Linux:
+   
    ```sudo apt-get install git```
    
    Для Termux:
+   
    ```pkg install git```
    
    
