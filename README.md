@@ -12,13 +12,13 @@
 
 2.Установим Git:
 
-      Для Linux:
+   Для Linux:
 
-         sudo apt-get install git
+      sudo apt-get install git
 
-      Для Termux:
+   Для Termux:
 
-         pkg install git
+      pkg install git
       
 3.Запускаем скрипт:
 
