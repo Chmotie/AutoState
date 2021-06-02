@@ -6,8 +6,8 @@
 1. Установим зависимости:
 
    Необходим Python3:
-   
-      ```pip3 install vk_api```
+  
+         pip3 install vk_api
  
 2.Установим Git:
 
