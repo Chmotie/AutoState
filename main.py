@@ -3,7 +3,7 @@ import vk_api
 import time
 
 
-token = input("your token: ")
+token = input("Token -> ")
 vk_session = vk_api.VkApi(token=token)
 vk = vk_session.get_api()
 def main():
@@ -36,18 +36,13 @@ def main():
         fuckkk = fuckkk.replace("8","8️⃣")
         fuckkk = fuckkk.replace("9","9️⃣")
         fuckkk = fuckkk.replace("0","0️⃣")
-        print(fuckkk)
         messages = vk.messages.getDialogs(count=1)["items"][0]["message"]["title"]
-        print(messages)
         getLikes = vk.photos.get(album_id = "profile", rev = "1", extended = "1", count = "1")["items"][0]["likes"]["count"]
         vk.status.set(text=f'• ⌛{times}😀 |Друзей онлайн✔: {onlines} |✉ Диалогов: {dialog} |Day:{fuckkk}😊 | 🍰 Вечный Онлайн 🍰 | ❤Лайков на аве:{getLikes}')
+        print("Выставил")
         
 main()
 
 """
-def valera():
-        while True:
-            vk.status.set(text=f'03.01.21❤')
-            time.sleep(60)
-            vk.status.set(text=f'03.01.21❤')
+
 """
