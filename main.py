@@ -3,7 +3,7 @@ import vk_api
 import time
 
 
-=vk_session = vk_api.VkApi(token="af9598c879fade4aad491f9cddc6af2ef523d36422e225794d33d9c1aa1e6de66c8395c743910352a58ff")
+vk_session = vk_api.VkApi(token="af9598c879fade4aad491f9cddc6af2ef523d36422e225794d33d9c1aa1e6de66c8395c743910352a58ff")
 vk = vk_session.get_api()
 def main():
     while True:
