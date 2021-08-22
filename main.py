@@ -37,7 +37,7 @@ def main():
         fuckkk = fuckkk.replace("0","0️⃣")
         messages = vk.messages.getDialogs(count=1)["items"][0]["message"]["title"]
         getLikes = vk.photos.get(album_id = "profile", rev = "1", extended = "1", count = "1")["items"][0]["likes"]["count"]
-        vk.status.set(text=f'• ⌛{times}😀 |Друзей онлайн✔: {onlines} |✉ Диалогов: {dialog} |Day:{fuckkk}😊 | 🍰 Вечный Онлайн 🍰 | ❤Лайков на аве:{getLikes}')
+        #vk.status.set(text=f'• ⌛{times}😀 |Друзей онлайн✔: {onlines} |✉ Диалогов: {dialog} |Day:{fuckkk}😊 | 🍰 Вечный Онлайн 🍰 | ❤Лайков на аве:0')
         print("Выставил")
         
 main()
